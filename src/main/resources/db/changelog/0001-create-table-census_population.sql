@@ -1,0 +1,14 @@
+-- create database census;
+-- use census;
+-- CREATE TABLE `census_population` (
+--   `id` varchar(255) NOT NULL,
+--   `avg_household_size` decimal(19,2) DEFAULT NULL,
+--   `median_age` decimal(19,2) DEFAULT NULL,
+--   `total_females` bigint(20) DEFAULT NULL,
+--   `total_households` bigint(20) DEFAULT NULL,
+--   `total_males` bigint(20) DEFAULT NULL,
+--   `total_population` bigint(20) DEFAULT NULL,
+--   `zipcode` bigint(20) DEFAULT NULL,
+--   PRIMARY KEY (`id`),
+--   UNIQUE KEY `unique_zipcode` (`zipcode`)
+-- ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
