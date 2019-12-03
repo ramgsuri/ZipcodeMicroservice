@@ -24,9 +24,9 @@ Project is created with:
 ## Project Setup
 ## Usage
 To assemble the project run:
-
+Once you run the command, this jar gets created by the name of ZipCodeFetcher-0.0.1-SNAPSHOT.jar
 ```
-$ mvn clean install
+$ mvn clean install 
 ```
 
 To run JUnit tests:
@@ -44,4 +44,6 @@ Run db script
 http://localhost:9090/swagger-ui.html#/
 
 # Run the jar file 
-java -jar 
+java -jar ZipCodeFetcher-0.0.1-SNAPSHOT.jar
+
+
